@@ -4,7 +4,7 @@
 This project analyzes and visualizes FC Barcelona player performance trends over multiple seasons.  
 It compares Barcelona players to players from other European teams and groups them by position:
 
-- **Attackers** → goals, assists  
+- **Attackers** → goals, shots per game, shots on target
 - **Midfielders** → assists, passes per game, pass accuracy  
 - **Defenders** → fouls, successful tackles, yellow/red cards  
 - **Goalkeepers** → saves, clean sheets  
