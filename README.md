@@ -1,7 +1,7 @@
 # FC Barcelona Player Performance Analysis
 
 ## Project Overview
-This project analyzes and visualizes FC Barcelona player performance trends over multiple seasons.  
+This project analyzes and visualizes FC Barcelona player performance trends for the 2025-2026 season.
 It compares Barcelona players to players from other European teams and groups them by position:
 
 - **Attackers** → goals, shots per game, shots on target
