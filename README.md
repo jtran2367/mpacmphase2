@@ -27,7 +27,7 @@ The goal is to use Python for data analysis, export the results, and build a web
 ## Project Deliverables
 
 ### 1. Python — Data Analysis & JSON Export
-- **Task:** Analyze player data (averages, trends, comparisons) using Python  
+- **Task:** Analyze player data (stats per 90, trends, comparisons) using Python  
 - **Output:** A `results.json` file containing calculated stats  
 - **Skills Demonstrated:** Data processing, basic Python programming  
 
