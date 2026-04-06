@@ -32,8 +32,8 @@ The goal is to use Python for data analysis, export the results, and build a web
 - **Skills Demonstrated:** Data processing, basic Python programming  
 
 #### Example Python Tasks:
-- Calculate average goals for attackers  
-- Calculate assists and pass accuracy for midfielders  
+- Calculate goals per 90 for attackers  
+- Calculate assists per 90 and pass accuracy per 90 for midfielders  
 - Compare Barcelona players to players from other teams  
 
 ---
