@@ -1,0 +1,32 @@
+﻿Player,Team,Position,GamesPlayed,Goals,Shots,ShotsOnTarget,Assists,Passes,AccuratePasses,FoulsCommitted,Tackles,SucessfulTackles,Saves,GoalsConceded,CleanSheets
+Joan García,FC Barcelona,Goalkeeper,7,,,,,,,,,,16,11,0
+Wojciech Szczęsny,FC Barcelona,Goalkeeper,4,,,,,,,,,,10,6,1
+Ronald Araújo,FC Barcelona,Defender,8,,,,,,,4,8,2,,,
+Pau Cubarsí,FC Barcelona,Defender,9,,,,,,,6,14,8,,,
+Jules Koundé,FC Barcelona,Defender,8,,,,,,,5,10,3,,,
+Alejandro Balde,FC Barcelona,Defender,7,,,,,,,3,2,0,,,
+João Cancelo,FC Barcelona,Defender,2,,,,,,,1,2,1,,,
+Gerard Martín,FC Barcelona,Defender,10,,,,,,,4,8,5,,,
+Andreas Christensen,FC Barcelona,Defender,4,,,,,,,0,1,0,,,
+Eric García,FC Barcelona,Defender,9,,,,,,,12,17,5,,,
+Pedri,FC Barcelona,Midfielder,7,,,,2,454,409,,,,,,
+Gavi,FC Barcelona,Midfielder,0,,,,0,0,0,,,,,,
+Frenkie de Jong,FC Barcelona,Midfielder,7,,,,1,407,383,,,,,,
+Dani Olmo,FC Barcelona,Midfielder,8,,,,0,156,136,,,,,,
+Fermín López,FC Barcelona,Midfielder,9,,,,4,285,247,,,,,,
+Marc Bernal,FC Barcelona,Midfielder,6,,,,0,129,115,,,,,,
+Marc Casadó,FC Barcelona,Midfielder,6,,,,0,162,146,,,,,,
+Robert Lewandowski,FC Barcelona,Attacker,9,4,23,12,,,,,,,,,
+Lamine Yamal,FC Barcelona,Attacker,8,5,28,12,,,,,,,,,
+Raphinha,FC Barcelona,Attacker,7,3,20,10,,,,,,,,,
+Ferran Torres,FC Barcelona,Attacker,8,2,12,3,,,,,,,,,
+Marcus Rashford,FC Barcelona,Attacker,9,5,23,7,,,,,,,,,
+Roony Bardghji,FC Barcelona,Attacker,4,0,4,1,,,,,,,,,
+Thibaut Courtois,Real Madrid,Goalkeeper,11,,,,,,,,,,56,11,4
+Gianluigi Donnarumma,Manchester City,Goalkeeper,9,,,,,,,,,,23,12,3
+Jonathan Tah,FC Bayern,Defender,10,,,,,,,19,14,7,,,
+Marc Cucurella,Chelsea,Defender,9,,,,,,,14,24,8,,,
+Vitinha,PSG,Midfielder,12,,,,1,1189,1253,,,,,,
+Martin Zubimendi ,Arsenal,Midfielder,8,,,,1,387,438,,,,,,
+Victor Osimhen,Galatasaray,Attacker,10,7,25,41,,,,,,,,,
+Julián Alvarez,Atlético Madrid,Attacker,11,8,38,17,,,,,,,,,
