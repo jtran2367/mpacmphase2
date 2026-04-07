@@ -4,21 +4,10 @@
 This project analyzes and visualizes FC Barcelona player performance for the 2025-2026 UEFA Champions League season.
 It compares Barcelona players to players from other European teams in the Champions League and groups them by position:
 
-- **Attackers** → goals, shots per game, shots on target
-- **Midfielders** → assists, passes per game, pass accuracy  
+- **Attackers** → goals, total shots, total shots on target
+- **Midfielders** → assists, total passes, total number of accurate passes
 - **Defenders** → fouls, successful tackles, yellow/red cards  
 - **Goalkeepers** → saves, clean sheets  
-
-### Per 90 Minutes Statistics
-To ensure fair comparison between players with different playing time, this project includes per 90 minutes metrics.
-
-#### What This Means
-Player stats are normalized based on minutes played using the following formula:
-**Stat per 90 = (Total Stat / Minutes Played) × 90**
-- For Example: 
-Goals: 10, Minutes Played: 1800 --> Goals per 90 = 0.50
-
---- 
 
 The goal is to use Python for data analysis, export the results, and build a web app to display the trends.
 
@@ -32,8 +21,8 @@ The goal is to use Python for data analysis, export the results, and build a web
 - **Skills Demonstrated:** Data processing, basic Python programming  
 
 #### Example Python Tasks:
-- Calculate goals per 90 for attackers  
-- Calculate assists per 90 and pass accuracy per 90 for midfielders  
+- Calculate average goals for attackers  
+- Calculate average assists and pass accuracy for midfielders  
 - Compare Barcelona players to players from other teams  
 
 ---
