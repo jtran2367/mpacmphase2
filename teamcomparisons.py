@@ -1,13 +1,11 @@
 import pandas as pd
 
-# ── Load the data ──────────────────────────────────────────────
 df = pd.read_csv("UCLStats25-26.csv")
 
-# ── Separate Barcelona players from other teams ────────────────
 barca = df[df["Team"] == "FC Barcelona"]   # only Barca rows
 others = df[df["Team"] != "FC Barcelona"]  # everyone else
 
-# ── Split each group by position ───────────────────────────────
+# Split each group by position
 # Barcelona
 barca_attackers = barca[barca["Position"] == "Attacker"]
 barca_midfielders = barca[barca["Position"] == "Midfielder"]
@@ -20,14 +18,12 @@ other_midfielders = others[others["Position"] == "Midfielder"]
 other_defenders = others[others["Position"] == "Defender"]
 other_keepers = others[others["Position"] == "Goalkeeper"]
 
-# ── Helper function: calculate the average of a column ─────────
-
 
 def avg(group, column):
     return round(group[column].mean(), 2)
 
 
-# ── Print averages for ATTACKERS ───────────────────────────────
+# Print averages for ATTACKERS
 print("=" * 50)
 print("ATTACKERS")
 print("=" * 50)
@@ -38,7 +34,7 @@ print(f"  Other Teams → Goals: {avg(other_attackers, 'Goals')} | "
       f"Shots: {avg(other_attackers, 'Shots')} | "
       f"Shots on Target: {avg(other_attackers, 'ShotsOnTarget')}")
 
-# ── Print averages for MIDFIELDERS ─────────────────────────────
+# Print averages for MIDFIELDERS
 print("\n" + "=" * 50)
 print("MIDFIELDERS")
 print("=" * 50)
@@ -49,7 +45,7 @@ print(f"  Other Teams → Assists: {avg(other_midfielders, 'Assists')} | "
       f"Passes: {avg(other_midfielders, 'Passes')} | "
       f"Accurate Passes: {avg(other_midfielders, 'AccuratePasses')}")
 
-# ── Print averages for DEFENDERS ───────────────────────────────
+# Print averages for DEFENDERS
 print("\n" + "=" * 50)
 print("DEFENDERS")
 print("=" * 50)
@@ -60,7 +56,7 @@ print(f"  Other Teams → Fouls: {avg(other_defenders, 'FoulsCommitted')} | "
       f"Tackles: {avg(other_defenders, 'Tackles')} | "
       f"Successful Tackles: {avg(other_defenders, 'SuccessfulTackles')}")
 
-# ── Print averages for GOALKEEPERS ─────────────────────────────
+# Print averages for GOALKEEPERS
 print("\n" + "=" * 50)
 print("GOALKEEPERS")
 print("=" * 50)
