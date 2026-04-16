@@ -1,4 +1,4 @@
-﻿Player,Team,Position,GamesPlayed,Goals,Shots,ShotsOnTarget,Assists,Passes,AccuratePasses,FoulsCommitted,Tackles,SucessfulTackles,Saves,GoalsConceded,CleanSheets
+﻿Player,Team,Position,GamesPlayed,Goals,Shots,ShotsOnTarget,Assists,Passes,AccuratePasses,FoulsCommitted,Tackles,SuccessfulTackles,Saves,GoalsConceded,CleanSheets
 Joan García,FC Barcelona,Goalkeeper,7,,,,,,,,,,16,11,0
 Wojciech Szczęsny,FC Barcelona,Goalkeeper,4,,,,,,,,,,10,6,1
 Ronald Araújo,FC Barcelona,Defender,8,,,,,,,4,8,2,,,

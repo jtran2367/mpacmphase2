@@ -34,7 +34,7 @@ The goal is to use Python for data analysis, export the results, and build a web
 
 #### Example Features:
 - Filter players by team or position  
-- Show player stats for each season  
+- Show where attackers score goals from  
 - Highlight top performers visually  
 
 ---
