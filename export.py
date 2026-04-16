@@ -1,6 +1,4 @@
-
 # This script analyzes the data and saves everything to results.json -> will be read by React
-
 import pandas as pd
 import json
 
