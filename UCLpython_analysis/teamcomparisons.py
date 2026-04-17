@@ -1,3 +1,5 @@
+# teamcomparisons.py --> compares team stats for each position
+
 import pandas as pd
 
 df = pd.read_csv("UCLStats25-26.csv")
