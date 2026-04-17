@@ -1,8 +1,12 @@
 # teamcomparisons.py --> compares team stats for each position
 
 import pandas as pd
+import os
 
-df = pd.read_csv("UCLStats25-26.csv")
+# Get the directory of the current script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(script_dir, "UCLStats25-26.csv")
+df = pd.read_csv(csv_path)
 
 barca = df[df["Team"] == "FC Barcelona"]   # only Barca rows
 others = df[df["Team"] != "FC Barcelona"]  # everyone else

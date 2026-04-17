@@ -6,9 +6,7 @@ import os
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(base_dir, "UCLStats25-26.csv")
-data = pd.read_csv(file_path)
-
-df = pd.read_csv("UCLStats25-26.csv")
+df = pd.read_csv(file_path)
 
 
 def safe_avg(group, column):
