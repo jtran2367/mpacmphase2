@@ -14,13 +14,21 @@ function App() {
   const [showCharts, setShowCharts]             = useState(true);
 
   useEffect(() => {
-    fetch('/UCLresults.json')
-      .then(response => response.json())
+    const dataUrl = `${process.env.PUBLIC_URL}/UCLresults.json`;
+
+    fetch(dataUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+        return response.json();
+      })
       .then(json => {
         setData(json);
         setLoading(false);
       })
       .catch(err => {
+        console.error('Data load error:', err);
         setError('Failed to load data.');
         setLoading(false);
       });
