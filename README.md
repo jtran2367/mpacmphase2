@@ -1,5 +1,15 @@
 # FC Barcelona Player Performance Analysis
 
+## Live Demo
+- https://jtran2367.github.io/mpacmphase2/
+
+## Deploying The Live Demo (GitHub Pages)
+1. Open a terminal in fcbarcelona-ucl/UCLreact-app/barca-stats
+2. Install dependencies: npm install
+3. Deploy to GitHub Pages: npm run deploy
+
+The deploy script builds the React app and publishes the build folder to the gh-pages branch.
+
 ## Project Overview
 This project analyzes and visualizes FC Barcelona player performance for the 2025-2026 UEFA Champions League season.
 It compares the stats of Barcelona players to players from other European teams in the Champions League and groups them by position:
