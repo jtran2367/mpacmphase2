@@ -14,24 +14,38 @@ function App() {
   const [showCharts, setShowCharts]             = useState(true);
 
   useEffect(() => {
-    const dataUrl = `${process.env.PUBLIC_URL}/UCLresults.json`;
+    const normalizedPublicUrl = (process.env.PUBLIC_URL || '').replace(/\/$/, '');
+    const candidateUrls = [
+      `${normalizedPublicUrl}/UCLresults.json`,
+      './UCLresults.json',
+      '/UCLresults.json'
+    ].filter((url, index, arr) => url && arr.indexOf(url) === index);
 
-    fetch(dataUrl)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`);
+    const loadData = async () => {
+      let lastError = null;
+
+      for (const url of candidateUrls) {
+        try {
+          const response = await fetch(url);
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+
+          const json = await response.json();
+          setData(json);
+          setLoading(false);
+          return;
+        } catch (err) {
+          lastError = err;
         }
-        return response.json();
-      })
-      .then(json => {
-        setData(json);
-        setLoading(false);
-      })
-      .catch(err => {
-        console.error('Data load error:', err);
-        setError('Failed to load data.');
-        setLoading(false);
-      });
+      }
+
+      console.error('Data load error:', lastError);
+      setError('Failed to load data.');
+      setLoading(false);
+    };
+
+    loadData();
   }, []);
 
   if (loading) return <p style={{ padding: '40px', textAlign: 'center' }}>Loading data...</p>;
