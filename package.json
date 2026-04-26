@@ -1,0 +1,9 @@
+{
+  "name": "mpacmphase2-root",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix ./fcbarcelona-ucl/UCLreact-app/barca-stats start",
+    "build": "npm --prefix ./fcbarcelona-ucl/UCLreact-app/barca-stats build",
+    "test": "npm --prefix ./fcbarcelona-ucl/UCLreact-app/barca-stats test"
+  }
+}
