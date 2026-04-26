@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mpacmphase2/static/css/main.56ec73eb.css",
+    "main.js": "/mpacmphase2/static/js/main.f3184c8a.js",
+    "static/js/453.d6823aea.chunk.js": "/mpacmphase2/static/js/453.d6823aea.chunk.js",
+    "index.html": "/mpacmphase2/index.html",
+    "main.56ec73eb.css.map": "/mpacmphase2/static/css/main.56ec73eb.css.map",
+    "main.f3184c8a.js.map": "/mpacmphase2/static/js/main.f3184c8a.js.map",
+    "453.d6823aea.chunk.js.map": "/mpacmphase2/static/js/453.d6823aea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56ec73eb.css",
+    "static/js/main.f3184c8a.js"
+  ]
+}
