@@ -57,4 +57,12 @@ The goal is to use Python for data analysis, export the results, and build a web
 #### Example Features:
 - Tables or cards with clear headings  
 - Color-coded stats for quick readability  
-- Mobile-friendly layout  
+- Mobile-friendly layout
+
+---
+
+## Presentation for ACM
+- https://canva.link/mc48jhn2yi9i2m9
+
+## Devpost Link
+- https://devpost.com/software/mpacmphase2
