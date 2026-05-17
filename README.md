@@ -1,7 +1,8 @@
 # FC Barcelona Player Performance Analysis
 
 ## Live Demo
-- https://jtran2367.github.io/mpacmphase2/
+- Github Pages: https://jtran2367.github.io/mpacmphase2/
+- Vercel: https://mpacmphase2.vercel.app/
 
 ## Deploying The Live Demo (GitHub Pages)
 1. Open a terminal in fcbarcelona-ucl/UCLreact-app/barca-stats
