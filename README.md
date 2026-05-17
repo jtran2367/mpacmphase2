@@ -10,6 +10,15 @@
 
 The deploy script builds the React app and publishes the build folder to the gh-pages branch.
 
+## Deploying On Vercel
+1. Connect the repository to Vercel.
+2. Use the root `build` script as the build command.
+3. Set the output directory to `build`.
+
+This repo is configured so the same app can be deployed to both GitHub Pages and Vercel. GitHub Pages still uses the `gh-pages` branch, while Vercel serves the root `build` output generated from the nested React app.
+
+---
+
 ## Project Overview
 This project analyzes and visualizes FC Barcelona player performance for the 2025-2026 UEFA Champions League season.
 It compares the stats of Barcelona players to players from other European teams in the Champions League and groups them by position:
