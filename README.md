@@ -61,7 +61,7 @@ The goal is to use Python for data analysis, export the results, and build a web
 
 ---
 
-## Presentation for ACM
+## Presentation for ACM EOY Showcase
 - https://canva.link/mc48jhn2yi9i2m9
 
 ## Devpost Link
