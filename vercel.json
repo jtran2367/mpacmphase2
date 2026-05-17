@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "installCommand": "npm --prefix ./fcbarcelona-ucl/UCLreact-app/barca-stats install",
-  "buildCommand": "npm --prefix ./fcbarcelona-ucl/UCLreact-app/barca-stats run build",
-  "outputDirectory": "fcbarcelona-ucl/UCLreact-app/barca-stats/build",
+  "buildCommand": "npm --prefix ./fcbarcelona-ucl/UCLreact-app/barca-stats install && npm --prefix ./fcbarcelona-ucl/UCLreact-app/barca-stats run build && cp -a fcbarcelona-ucl/UCLreact-app/barca-stats/build ./build",
+  "outputDirectory": "build",
   "builds": [
     {
       "src": "fcbarcelona-ucl/UCLreact-app/barca-stats/package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "fcbarcelona-ucl/UCLreact-app/barca-stats/build" }
+      "config": { "distDir": "build" }
     }
   ]
 }
